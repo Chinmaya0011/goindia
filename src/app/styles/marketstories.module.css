@@ -1,0 +1,49 @@
+/* Market.module.css */
+
+.marketContainer {
+  margin: 20px;
+  max-width: 540px; /* Adjust as needed */
+}
+.msh1{
+  font-size: 20px;
+  background-color:rgb(233, 239, 70) ;
+  color: rgba(0, 0, 0, 0.616);
+padding: 4px;
+}
+.image {
+  max-width: 100%; /* Set maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.contentWrapper {
+  padding: 1rem; /* Adjust padding as needed */
+  text-align: center; /* Center text content */
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem; /* Adjust as needed */
+  margin-bottom: 0.5rem; /* Adjust as needed */
+}
+
+.description {
+  font-size: 1rem; /* Adjust as needed */
+  color: #4b5563; /* Adjust color as needed */
+}
+
+.tagsWrapper {
+  padding: 1rem; /* Adjust padding as needed */
+  text-align: center; /* Center text content */
+}
+
+.tag {
+  display: inline-block;
+  background-color: #edf2f7; /* Adjust color as needed */
+  border-radius: 9999px; /* Adjust to make it a circle */
+  padding: 0.25rem 0.75rem; /* Adjust padding as needed */
+  font-size: 0.875rem; /* Adjust font size as needed */
+  font-weight: 600;
+  color: #4b5563; /* Adjust color as needed */
+  margin-right: 0.5rem; /* Adjust margin as needed */
+  margin-bottom: 0.5rem; /* Adjust margin as needed */
+}

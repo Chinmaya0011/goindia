@@ -1,0 +1,126 @@
+
+.h1{
+  width: 300px;
+  font-size: 20px;
+  background-color:antiquewhite ;
+  color: rgb(243, 18, 55);
+padding: 4px;
+}
+
+/* Container styles */
+.discussion {margin: 0 auto;
+  align-items: center;
+
+  width: auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative; /* For positioning the time */
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.3); /* Non-hover box shadow */
+  transition: box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.discussion:hover {
+  box-shadow:0 0 0 0  rgba(0, 0, 0, 0.3); /* Hover box shadow */
+}
+.userImage {
+  margin-right: 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.nameArea {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.nameArea h2,
+.nameArea p {
+    
+  display: inline-block;
+}
+
+.nameArea p {
+  margin-left: 10px;
+  padding: 4px;
+
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(78, 78, 238);
+}
+
+.sector {
+  margin-left: 10px;
+}
+
+.postDetails {
+  margin-bottom: 10px;
+}
+
+.time {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-style: italic;
+}
+
+.actions {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+
+/* Generic button styles */
+.button {
+    border: none; /* Remove border */
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+
+  
+  .button:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
+  .button svg {
+    margin-right: 5px;
+  }
+  
+  /* Custom styles for specific buttons */
+  .likeButton,
+  .watchButton,
+  .commentButton,
+  .shareButton {
+    font-size: 18px;
+    background-color: rgba(245, 222, 179, 0);
+    margin-right: 15px; /* Adjust spacing between buttons */
+    color: inherit; /* Inherit text color from parent */
+    border: none; /* Remove border */
+  }
+  
+  /* Adjust specific button colors */
+  .likeButton:hover {
+    color: rgb(248, 86, 113); /* Change color on hover */
+  }
+  
+  .watchButton:hover {
+    color: lightblue; /* Change color on hover */
+  }
+  
+  .commentButton:hover {
+    color: lightgreen; /* Change color on hover */
+  }
+  
+  .shareButton:hover {
+    color: lightcoral; /* Change color on hover */
+  }
+  
