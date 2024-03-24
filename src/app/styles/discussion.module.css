@@ -124,3 +124,74 @@ padding: 4px;
     color: lightcoral; /* Change color on hover */
   }
   
+/* Define a breakpoint for small screens */
+@media only screen and (max-width: 600px) {
+  /* Adjust .h1 styles */
+  .h1 {
+    width: 200px; /* Decrease width */
+    font-size: 16px; /* Decrease font size */
+    padding: 2px; /* Decrease padding */
+  }
+
+  /* Adjust .discussion styles */
+  .discussion {
+    padding: 10px; /* Decrease padding */
+  }
+
+  .userImage {
+    margin: 0 auto 10px; /* Center align and decrease margin */
+    height: 50px; /* Decrease image size */
+    width: 50px; /* Decrease image size */
+  }
+
+  .nameArea {
+    gap: 10px;
+    display: flex;
+    text-align: center; /* Center align */
+    margin: 5px; /* Decrease margin */
+  }
+
+  .nameArea h2,
+  .nameArea p {
+    display: block; /* Display on separate lines */
+    text-align: center; /* Center align */
+    margin: 0; /* Reset margin */
+  }
+
+  .sector {
+    margin: 0 auto 5px; /* Center align and decrease margin */
+  }
+
+  .postDetails {
+    text-align: center; /* Center align */
+    margin-bottom: 5px; /* Decrease margin */
+  }
+
+  .time {
+    position: static; /* Reset position */
+    text-align: center; /* Center align */
+    margin-bottom: 10px; /* Decrease margin */
+  }
+
+  .actions {
+    margin-top: 5px; /* Decrease margin */
+    text-align: center; /* Center align */
+  }
+
+  /* Adjust button styles */
+  .button {
+    padding: 3px 8px; /* Decrease padding */
+    margin: 5px; /* Decrease margin */
+  }
+
+  .button svg {
+    margin-right: 3px; /* Decrease margin */
+  }
+  .likeButton,
+  .watchButton,
+  .commentButton,
+  .shareButton {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+}

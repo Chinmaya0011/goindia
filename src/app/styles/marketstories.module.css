@@ -47,3 +47,36 @@ padding: 4px;
   margin-right: 0.5rem; /* Adjust margin as needed */
   margin-bottom: 0.5rem; /* Adjust margin as needed */
 }
+
+/* Define a breakpoint for small screens */
+@media only screen and (max-width: 600px) {
+  .marketContainer {
+    margin: 10px; /* Adjust margin for smaller screens */
+    max-width: 100%; /* Allow container to take full width */
+  }
+
+  .msh1 {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    padding: 2px; /* Decrease padding for smaller screens */
+  }
+
+  .title {
+    font-size: 1.1rem; /* Decrease font size for smaller screens */
+    margin-bottom: 0.3rem; /* Decrease margin for smaller screens */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Decrease font size for smaller screens */
+  }
+
+  .tagsWrapper {
+    padding: 0.5rem; /* Decrease padding for smaller screens */
+  }
+
+  .tag {
+    padding: 0.2rem 0.5rem; /* Decrease padding for smaller screens */
+    font-size: 0.75rem; /* Decrease font size for smaller screens */
+    margin-right: 0.3rem; /* Decrease margin for smaller screens */
+    margin-bottom: 0.3rem; /* Decrease margin for smaller screens */
+  }
+}
